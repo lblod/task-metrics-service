@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A common pattern in semantic works is to work with tasks. This is a very simple service that provides metrics on tasks to ingest in prometheus.",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "@lblod/mu-auth-sudo": "^0.2.0"
+  },
   "devDependencies": {
-    "@lblod/mu-auth-sudo": "^0.2.0",
     "eslint": "^7.30.0"
   },
   "scripts": {
